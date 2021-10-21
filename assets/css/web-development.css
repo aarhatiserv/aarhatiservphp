@@ -1,0 +1,64 @@
+.digiCard {
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.15);
+  background-image: url("../images/card/topLeft.png"),
+    url("../images/card/bottomRight.png");
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+  outline: none;
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+/* package card css */
+
+.packageCardBg {
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.15);
+  background-image: url("../images/card/topLeft.png");
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+  outline: none;
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  min-height: 308px;
+}
+
+/* .packageTitle{
+    min-height: 150px;
+} */
+.cardList {
+  display: inline !important;
+}
+
+.cardList > li {
+  display: inline;
+  color: #4bd39c;
+}
+
+.cardList > li::after {
+  content: " ";
+  margin: 0 1em;
+  color: #4bd39c;
+}
+
+.btnGreen {
+  background: #4bd39c;
+  /* Accent Drop */
+  color: #fff;
+  box-shadow: 0px 4px 25px #4cd49d;
+  border-radius: 15px;
+}
+/* package card css ends */
+.webDevelopmentHeading {
+  font-size: 60px;
+}
+@media only screen and (max-width: 480px) {
+  .webDevelopmentHeading {
+    font-size: 40px;
+  }
+  .digiCard {
+    overflow-x: auto;
+  }
+}

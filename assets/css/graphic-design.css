@@ -1,0 +1,79 @@
+.serviceCard {
+    flex: 0 1 24%;
+    min-height: 420px;
+    background: linear-gradient(148.66deg, #f3f2f2 0.95%, #d7ffef 96.19%);
+    border-radius: 15px;
+    margin: 10px 10px;
+  }
+  
+  .serviceCardText {
+    padding: 10px 15px;
+  
+    text-align: left;
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .serviceCard {
+      margin: 5px 5px;
+    }
+  
+    .serviceCardText {
+      padding: 10px 18px;
+      font-size: 18px;
+    }
+  }
+  
+  .colMd4 :hover {
+    animation-duration: 300ms;
+    filter: drop-shadow(0px 10px 20px rgba(15, 72, 48, 0.075));
+  }
+  /* special offer section css */
+
+.offersCard {
+  background: #ffffff;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.15);
+  border-radius: 15px;
+}
+
+.specialgreeenbox {
+  position: absolute;
+  height: 100px;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.5;
+  background: #4cd49d;
+  margin-top: 320px;
+  transform: skewY(-8deg);
+}
+
+.cardHeading {
+  color: #4cd49d;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.price {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 134%;
+  /* identical to box height, or 34px */
+  color: #4cd49d;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.availOffer {
+  background: #4cd49d;
+  border-radius: 15px 0px;
+  color: white;
+}
+
+.specialImg {
+  height: 20vh;
+  margin-bottom: 50px;
+}
+/* special offer sction css  ends here*/

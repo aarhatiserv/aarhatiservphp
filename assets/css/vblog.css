@@ -1,0 +1,54 @@
+/* vblog css */
+
+.addArea {
+    background: rgb(170, 142, 142);
+    height: 15vh;
+    width: 100%;
+}
+
+/* search section css */
+.searchInput {
+    border: 2px solid #4BD39C;
+    border-radius: 15px;
+}
+
+.filterIcon {
+    background-color: #4BD39C;
+    color: #fff;
+    font-size: 14px;
+    ;
+    padding: 9px;
+
+
+}
+/* search section css ends */
+
+/* card */
+.btnMore {
+    background: #4CD49D;
+    border-radius: 15px 0px;
+}
+
+.cardBorder {
+    background: #FFFFFF;
+    /* Cards */
+
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+}
+
+/* category labels */
+
+.bgCat {
+    background-color: #ECECEC;
+    ;
+    font-family: Poppins;
+    font-style: normal;
+    border-radius: 15px 0px 0px 15px;
+}
+
+.bgDDD {
+    background-color: #ECECEC;
+    ;
+}
+/* category labels ends */

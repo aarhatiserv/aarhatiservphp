@@ -1,0 +1,122 @@
+.tableHead {
+  font-weight: 600;
+}
+.tableMain tr td {
+  font-weight: 400;
+  height: 40px;
+  font-size: 15px;
+  padding: 0.75rem 1.5rem;
+}
+.tableMain th {
+  padding: 0.75rem 1.5rem;
+}
+.tableMain {
+  border-color: #4bd39c;
+  font-family: "poppins";
+}
+.digiCard {
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.15);
+  background-image: url("../images/card/topLeft.png"),
+    url("../images/card/bottomRight.png");
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+  outline: none;
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+/* service cards css */
+
+.serviceCard {
+  flex: 0 1 24%;
+  min-height: 420px;
+  background: linear-gradient(148.66deg, #f3f2f2 0.95%, #d7ffef 96.19%);
+  border-radius: 15px;
+  margin: 10px 10px;
+}
+
+.serviceCardText {
+  padding: 10px 15px;
+
+  text-align: left;
+}
+
+@media only screen and (max-width: 480px) {
+  .serviceCard {
+    margin: 5px 5px;
+  }
+
+  .serviceCardText {
+    padding: 10px 18px;
+    font-size: 18px;
+  }
+  .digiCard {
+    overflow-x: auto;
+  }
+}
+
+.colMd4 :hover {
+  animation-duration: 300ms;
+  filter: drop-shadow(0px 10px 20px rgba(15, 72, 48, 0.075));
+}
+
+
+/********************updated      code   ************** ***************/
+.seoScore {
+  background-image: url("../images/digi-bg.png");
+}
+
+.block1 {
+  background-color: white;
+  border-radius: 15px;
+  padding-top: 20px;
+}
+.block2 {
+  background-color: white;
+  border-radius: 15px;
+  padding-top: 20px;
+}
+.contactInput1 {
+  min-height: 160px;
+  background-color: #e6e6e6;
+  border-bottom: 4px solid #4cd49d;
+}
+#seo2 {
+  display: none;
+}
+#fade1 {
+  position: relative;
+  left: 15px;
+}
+#fade2 {
+  position: relative;
+  left: -25px;
+}
+
+.contactInput {
+  height: 50px;
+  background-color: #e6e6e6;
+  border-bottom: 4px solid #4cd49d;
+}
+
+.sendBtn {
+  background: #4cd49d;
+  border-radius: 15px 0px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 134%;
+  /* identical to box height, or 34px */
+  text-align: center;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.sendBtn:hover {
+  color: #fff;
+  border: 1px solid #4bd39c;
+  background: #4bd39c;
+  box-shadow: 0px 4px 15px rgba(75, 211, 156, 0.5);
+}

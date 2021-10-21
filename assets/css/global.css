@@ -1,0 +1,179 @@
+html,
+body {
+  height: 100%;
+}
+
+/*costom fonts*/
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+.dropdown > .dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+  pointer-events: none;
+}
+
+.dropdown-item {
+  font-family: "Poppins", sans-serif;
+  font-style: bold;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000;
+}
+
+.dropdown-menu {
+  border: none;
+  box-shadow: 0px 10px 30px rgba(15, 72, 48, 0.25);
+  border-radius: 15px;
+  margin-left: -50px;
+  margin-top: -15px;
+}
+
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba(190, 186, 186, 0.25);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #4cd49d;
+  border-radius: 15px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #4cd49d;
+}
+
+/* navigation  */
+
+/*navigation*/
+.corner {
+  position: absolute;
+  width: 140px;
+  height: 140px;
+  left: -60px;
+  top: -40px;
+
+  background: #47ddb8;
+  filter: blur(20px);
+  transform: rotate(-35deg);
+}
+
+.aBtn {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  background: #4bd39c;
+  border: 1px solid #ffffff;
+  border-radius: 15px;
+  font-weight: normal;
+  padding: 10px 25px;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.aBtn:hover {
+  transform: translateY(-5px);
+  border: 1px solid #4bd39c;
+  background: #4bd39c;
+  box-shadow: 0px 4px 15px rgba(75, 211, 156, 0.5);
+  border-radius: 15px;
+}
+
+.dmenu a:not(:last-child)::after {
+  content: "";
+  background: rgb(202, 202, 202);
+  height: 2px;
+  width: 7rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px;
+  display: block;
+  transform: translateY(10px);
+}
+/* navigation end */
+/* footer css */
+
+.myfooter {
+  height: 95vh;
+  font-family: "Poppins", sans-serif;
+}
+
+.logo-image {
+  height: 70px;
+}
+
+.footerCard {
+  position: relative;
+  z-index: 2;
+  background: #395248;
+  border-radius: 15px;
+  color: #fff;
+}
+
+.FTicon {
+  font-size: 10px;
+  height: 15px;
+}
+
+@media only screen and (max-width: 480px) {
+  .mapCard {
+    width: 100%;
+  }
+
+  .footerCardBody {
+    padding: 1rem !important;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .footerCardBody {
+    padding: 10px auto;
+  }
+
+  .h3hide {
+    display: none;
+  }
+}
+
+/* batck to top button */
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #fff; /* Set a background color */
+  color: #555; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.15);
+  border-radius: 15px;
+}
+
+#myBtn:hover {
+  /* background-color: #555; Add a dark-grey background on hover */
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.25);
+}
+/* footer css end*/

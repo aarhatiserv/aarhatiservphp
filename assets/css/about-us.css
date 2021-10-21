@@ -1,0 +1,200 @@
+.aboutBanner {
+  background: url("../images/aboutus_banner.png") fixed;
+  height: 60vh;
+}
+
+/* what-we-do section css */
+.what-we-do {
+  height: 100vh;
+}
+
+.greenline {
+  position: absolute;
+  height: 100px;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.5;
+  background: #4cd49d;
+  margin-top: 320px;
+  transform: skewY(-11deg);
+}
+
+.greyCard {
+  position: absolute;
+  background: #e5e5e5;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.15);
+  border-radius: 15px;
+  height: 50vh;
+  width: 20vw;
+}
+
+@media only screen and (max-width: 480px) {
+  .greyCard {
+    display: none;
+  }
+  .how-we-do {
+    padding-top: 150px !important;
+  }
+  .teamSection {
+    padding-top: 250px;
+  }
+}
+/* what-we-do section css ends here */
+
+/* how we do */
+/* #how-we-do{
+    height: 100vh;
+} */
+
+/* .greenopline {
+
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+    background: #4CD49D;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    margin-top: 350px;
+    overflow: visible;
+    transform: rotate(5deg);
+
+
+} */
+
+@media only screen and (max-width: 480px) {
+  .howImg {
+    height: 90vh;
+  }
+}
+/* how we do ends here */
+
+/* how we choose us */
+
+.why-choose-us {
+  height: 80vh;
+}
+
+.greenline1 {
+  position: absolute;
+  height: 100px;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.5;
+  background: #4cd49d;
+  margin-top: 200px;
+  transform: skewY(-11deg);
+}
+
+.greyCard1 {
+  position: absolute;
+  background: #e5e5e5;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.15);
+  border-radius: 15px;
+  height: 50vh;
+  width: 20vw;
+}
+
+@media only screen and (max-width: 480px) {
+  .greyCard1 {
+    display: none;
+  }
+  .whyWeDo {
+    height: 100vh;
+  }
+}
+/* how we choose us ends her */
+
+/* our team section */
+.teamSection {
+  display: block;
+  position: relative;
+  margin-bottom: 210px;
+  height: 100vh;
+  /* background: url("../public/assets/images/our-team.png"); */
+}
+
+/* .scrollingWrapper{
+    height: 60vh;
+    display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+   
+    
+} */
+/* .scrollingWrapper::-webkit-scrollbar {
+    display: none;
+} */
+.teamCard {
+  display: block;
+}
+
+.myTeamCard {
+  /* margin-bottom: -200px; */
+  border-radius: 15px;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.ourTeam {
+  background-image: url("../images/our-team.png");
+
+  height: 28em;
+
+  /* height: 80vh; */
+}
+
+.teamImg {
+  height: 100px;
+  width: 100px;
+}
+
+@media only screen and (max-width: 480px) {
+  .teamSection {
+    height: 120vh;
+  }
+  /* .scrollingWrapper{
+        
+        height: 100vh;
+        display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+        
+    } */
+  .teamCard {
+    display: block;
+  }
+}
+
+/* our team section ends */
+
+/* cerification secion */
+.cerification-main {
+  position: static;
+  height: 90vh;
+}
+
+.greenline-cer {
+  position: absolute;
+  height: 100px;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.5;
+  background: #4cd49d;
+  margin-top: 100px;
+  transform: skewY(-11deg);
+}
+
+@media only screen and (max-width: 480px) {
+  .main {
+    height: 100vh;
+  }
+  .cerification-main {
+    padding-top: 1200px;
+  }
+  #emptyAboutus {
+    padding-top: 650px;
+  }
+}
+/* cerification secion ends*/

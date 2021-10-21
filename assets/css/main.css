@@ -1,0 +1,39 @@
+/*main css for Aarhat Iserv */
+
+/*costom fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+html,body{
+    height: 100%;
+}
+/*costom fonts*/
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+.corner{
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    left: -40px;
+    top: -80px;
+
+    background: #47DDB8;
+    filter: blur(20px);
+    transform: rotate(-35deg);
+}
+
+/*navigation*/
+
+
+.a-btn{
+
+    font-family: "Poppins",sans-serif;
+    font-weight: 600;
+    background: #4BD39C;
+    border: 1px solid #FFFFFF;
+/*    box-sizing: border-box;*/
+/*    border-radius: 15px;*/
+}
+
+

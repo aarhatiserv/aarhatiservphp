@@ -1,0 +1,62 @@
+.sidenav {
+    background-color: #464655;
+    height: 100%;
+}
+
+.sidebar-brand-icon i {
+    color: #818d9b;
+    font-size: 3rem;
+}
+
+.sidebar-brand-text {
+    list-style: none;
+    color: #818d9b;
+}
+
+.sidebar-heading {
+    font-size: .8rem;
+    opacity: 0.3;
+    color: white;
+}
+
+.sideIcons {
+    color: #818d9b;
+}
+
+.sideIcons:hover {
+    color: white;
+    opacity: .8;
+}
+
+.collapse-inner a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    padding-left: 1rem;
+    font-size: .8em;
+    line-height: 4.5vh;
+    font-weight: 400;
+}
+
+.collapse-inner a:hover {
+    border-radius: .35rem;
+    background-color: #d1d1d1;
+    margin: 0px 5px 0px 5px;
+}
+
+.collapse-inner h6 {
+    color: #818d9b;
+    padding-left: 1rem;
+    font-size: .8em;
+}
+
+
+.menuList a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    padding-left: 1rem;
+    font-size: .8em;
+    line-height: 4.5vh;
+    font-weight: 400;
+}

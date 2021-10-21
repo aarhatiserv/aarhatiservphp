@@ -1,0 +1,25 @@
+body {
+    font-size: 16px;
+    font-weight: bold;
+    /*background-color:darkgrey;*/
+}
+
+.addon-dif-color,
+.btn {
+    background-color: teal;
+    color: white;
+}
+
+.panel-title {
+    color: teal;
+    font-weight: bold;
+}
+
+.sign-up,
+.forgot-pass {
+    display: none;
+}
+
+.alert {
+    display: none;
+}
