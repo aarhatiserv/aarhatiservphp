@@ -58,7 +58,7 @@
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item ">
 
-                        <a href="about" class="nav-link mt-2 mr-5">About Us </a>
+                        <a href="about-us" class="nav-link mt-2 mr-5">About Us </a>
 
                     </li>
                     <li class="nav-item dropdown">

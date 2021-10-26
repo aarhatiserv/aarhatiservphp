@@ -46,36 +46,36 @@
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a class="nav-link mx-3 text-dark sec-nav" onclick="getPorrtfollio('ALL')">
-                  ALL
+                  ALL &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link mx-3 text-dark sec-nav" onclick="getPorrtfollio('Logo')">
-                  Logo
+                  Logo &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link mx-3 text-dark sec-nav" onclick="getPorrtfollio('Branding')">
-                  Branding
+                  Branding &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link mx-3 text-dark sec-nav" onclick="getPorrtfollio('UI/UX')">
-                  UI/UX
+                Android Application Design
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link mx-3 text-dark sec-nav" onclick="getPorrtfollio()">
-                  Motion Design
+                  Motion Design &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 </a>
               </li>
-              <li class="nav-item">
+              <!-- <li class="nav-item">
                 <a class="nav-link mx-3 text-dark sec-nav" onclick="getPorrtfollio()">
                   Layout Design
                 </a>
-              </li>
+              </li> -->
               <li class="nav-item">
-                <a class="nav-link mx-3 text-dark sec-nav" onclick="getPorrtfollio()">
+                <a class="nav-link mx-3 text-dark sec-nav" onclick="getPorrtfollio('Website-Design')">
                   Website Design
                 </a>
               </li>
@@ -174,8 +174,10 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"></script>
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 <script type="text/javascript">
+
   function getPorrtfollio(type) {
     let protfolio_type = type;
+        console.log(protfolio_type);
     if (protfolio_type == undefined) {
       swal("Coming soon");
     } else {
@@ -183,6 +185,8 @@
         //  console.log(res);
         let gallery = [];
         let category_types = [];
+    console.log('this is res',res);
+
 
         function onlyUnique(value, index, self) {
           return self.indexOf(value.type) != value.type;
@@ -198,10 +202,7 @@
               `<div class="col-md-4 mb-3">
                                 <div class="card">
                                     <div class="card-body py-5 shadow">
-                                        <img src=` +
-              data.image +
-              `
-                                            class="img-fluid"></img>
+                                        <img src=` +data.image + ` class="img-fluid"></img>
                                     </div>
                                 </div>`
             );
@@ -213,10 +214,7 @@
               `<div class="col-md-4 mb-3">
                                 <div class="card">
                                     <div class="card-body py-5 shadow">
-                                        <img src=` +
-              data.image +
-              `
-                                            class="img-fluid"></img>
+                                        <img src=` +data.image + ` class="img-fluid"></img>
                                     </div>
                                 </div>`
             );
