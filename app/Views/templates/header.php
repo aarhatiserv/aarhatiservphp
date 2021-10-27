@@ -97,7 +97,7 @@
                     </li>
                     <li class="nav-item">
 
-                        <a href="vblog" class="nav-link mt-2 mr-5">V-Blog </a>
+                        <a href="http://localhost/myci4/blog/" class="nav-link mt-2 mr-5">Blog </a>
 
                     </li>
                     <!--<li class="nav-link">

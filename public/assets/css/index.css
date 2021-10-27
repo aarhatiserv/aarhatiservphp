@@ -3,7 +3,7 @@
 
 .hero {
   height: 100vh;
-  background: url("assets/images/aarhat_bg.png") no-repeat right center;
+  background: url(../images/aarhat_bg.png) no-repeat right center;
   background-size: 650px 600px;
 }
 
@@ -12,7 +12,7 @@
     /* background-image: none ! important; */
     height: 85vh;
     width: 100%;
-    background: url("../assets/images/aarhat_bg.png") no-repeat top
+    background: url(../images/aarhat_bg.png) no-repeat top
       center;
     background-size: 100% auto;
   }

@@ -65,15 +65,10 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link mx-3 text-dark sec-nav" onclick="getPorrtfollio()">
+                <a class="nav-link mx-3 text-dark sec-nav" onclick="getPorrtfollio('Motion-Design')">
                   Motion Design &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 </a>
               </li>
-              <!-- <li class="nav-item">
-                <a class="nav-link mx-3 text-dark sec-nav" onclick="getPorrtfollio()">
-                  Layout Design
-                </a>
-              </li> -->
               <li class="nav-item">
                 <a class="nav-link mx-3 text-dark sec-nav" onclick="getPorrtfollio('Website-Design')">
                   Website Design
@@ -177,7 +172,7 @@
 
   function getPorrtfollio(type) {
     let protfolio_type = type;
-        console.log(protfolio_type);
+        console.log("this is type",protfolio_type);    
     if (protfolio_type == undefined) {
       swal("Coming soon");
     } else {
@@ -185,7 +180,7 @@
         //  console.log(res);
         let gallery = [];
         let category_types = [];
-    console.log('this is res',res);
+    // console.log('this is res',res);
 
 
         function onlyUnique(value, index, self) {
@@ -195,16 +190,22 @@
           (data) => data.category == protfolio_type
         );
         let unique_data_types = shorteddata.filter(onlyUnique);
-        console.log(shorteddata);
+        console.log( 'that is short',unique_data_types);
         if (shorteddata.length !== 0) {
           shorteddata.forEach((data) => {
             gallery.push(
               `<div class="col-md-4 mb-3">
-                                <div class="card">
-                                    <div class="card-body py-5 shadow">
-                                        <img src=` +data.image + ` class="img-fluid"></img>
-                                    </div>
-                                </div>`
+                  <div class="card">
+                      <div class="card-body py-5 shadow">`
+                            if(type==motion){
+                              `<iframe width="560" height="315" src="https://www.youtube.com/embed/bmdi3oh29m4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                              </iframe>`
+                            } else {
+                          `<img src=` +data.image+ ` class="img-fluid"/>`
+                            }
+                      `</div>
+                    </div>
+                </div>`
             );
           });
         } else {
@@ -212,11 +213,12 @@
           shorteddata.forEach((data) => {
             gallery.push(
               `<div class="col-md-4 mb-3">
-                                <div class="card">
-                                    <div class="card-body py-5 shadow">
-                                        <img src=` +data.image + ` class="img-fluid"></img>
-                                    </div>
-                                </div>`
+                  <div class="card">
+                      <div class="card-body py-5 shadow">
+                          <img src=` +data.image + ` class="img-fluid"></img>
+                      </div>
+                  </div>
+                </div>`
             );
           });
         }

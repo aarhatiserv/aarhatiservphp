@@ -92,7 +92,7 @@
             <div class="form-group p-3">
               <strong class="alert text-danger" id="webInputalert"></strong>
               <input type="text" name="name" id="webInput" class="form-control contactInput"
-                placeholder="Website : aarhatiserv.com" required />
+                placeholder="example.com" required />
             </div>
             <div class="form-group p-3">
               <strong class="alert text-danger" id="emailInputalert"></strong>
@@ -102,7 +102,7 @@
             <div class="row">
               <div class="col-md-4  ml-auto  px-0 ">
                 <button type="submit" form="form1" id="fade1" value="Submit" class="btn btn-block sendBtn py-2">
-                  Send <span class="gt">></span>
+                  Send<span class="gt">></span>
                 </button>
               </div>
             </div>
